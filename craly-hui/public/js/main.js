@@ -395,7 +395,7 @@ function(a, t, r) {
         t = a.getFullYear(),
         r = a.getMonth(),
         n = a.getDate();
-        return 2019R === t && 7 === r && 7 === n && 23
+        return 2019 === t && 7 === r && 7 === n && 23
     }
     Object.defineProperty(t, "__esModule", {
         value: !0
