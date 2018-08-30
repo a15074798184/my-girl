@@ -58,7 +58,7 @@ function(t, e, a) {
         var t = new Date(d + " 00:00:00"),
         e = new Date,
         a = (Date.parse(e) - Date.parse(t)) / 1e3,
-        n = Math.floor(a / 86400);
+        n = Math.ceil(a / 86400);
         document.querySelector("#timer").style.display = "block",
         new m.
     default("count", 0, n, 0, 5).start()
